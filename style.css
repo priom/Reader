@@ -1,0 +1,67 @@
+*{
+	margin: auto;
+}
+
+nav{
+	height: 80px;
+	width: 100%;
+	background-color: #337AB7;
+}
+
+nav div{
+	text-align: center; 
+	height: 80px;
+}
+
+nav div a{
+	color: white;
+	font-size: 3.5em;
+	line-height: 80px;
+	font-family: Georgia, serif;
+	-webkit-transition: 0.5s ease;
+	-moz-transition: 0.5s ease;
+}
+
+nav div a:hover{
+	color: orange;
+	text-shadow: 0 0 10px black;
+	text-decoration: none;
+	font-size: 3.7em;
+}
+
+.input-group {
+    padding: 20px;
+}
+
+.btn-default {
+    font-weight: bold;
+}
+
+#browse {
+    float: right;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 0px ;
+}
+
+.panel-heading {
+    color: black;
+}
+.panel-primary>.panel-heading {
+    color: black;
+}
+.panel-primary {
+    margin: 50px 50px 20px 20px;
+}
+
+.dropdown {
+    margin: 10px;
+}
+
+#help {
+	float: right;
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-right: 50px ;
+}
+
